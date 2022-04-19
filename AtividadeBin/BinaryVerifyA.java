@@ -15,13 +15,13 @@ public class BinaryVerifyA {
         System.out.println(Arrays.stream(numBin).collect(Collectors.joining(".")));
 
         // Validação das Classes
-        if(numBin[3].endsWith("10")){
+        if(numBin[4].endsWith("10")){
             System.out.println("IP classe A");
         }
-        else if(numBin[3].endsWith("00")|| numBin[3].endsWith("01")){
+        else if(numBin[4].endsWith("00")|| numBin[4].endsWith("01")){
             System.out.println("IP classe B");
         }
-        else if(numBin[3].endsWith("11")){
+        else if(numBin[4].endsWith("11")){
             System.out.println("IP classe C");
         }
     }
